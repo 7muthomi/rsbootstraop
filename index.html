@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background-image: url('path/to/your/image.jpg');
+            height: 400px;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Restaurant Name</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Delicious Dishes Await!</h1>
+    <a href="#" class="btn btn-primary">View Menu</a>
+</div>
+
+<!-- Menu Section -->
+<div class="container my-5">
+    <h2 class="text-center">Our Menu</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="path/to/image1.jpg" class="card-img-top" alt="Menu Item 1">
+                <div class="card-body">
+                    <h5 class="card-title">Menu Item 1</h5>
+                    <p class="card-text">Description of menu item 1.</p>
+                    <p class="card-text"><strong>$10</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="path/to/image2.jpg" class="card-img-top" alt="Menu Item 2">
+                <div class="card-body">
+                    <h5 class="card-title">Menu Item 2</h5>
+                    <p class="card-text">Description of menu item 2.</p>
+                    <p class="card-text"><strong>$15</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="path/to/image3.jpg" class="card-img-top" alt="Menu Item 3">
+                <div class="card-body">
+                    <h5 class="card-title">Menu Item 3</h5>
+                    <p class="card-text">Description of menu item 3.</p>
+                    <p class="card-text"><strong>$12</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Us Section -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="path/to/aboutus.jpg" class="img-fluid" alt="About Us">
+        </div>
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>Information about the restaurant.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container my-5">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+    <div>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
